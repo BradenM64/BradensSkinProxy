@@ -80,6 +80,6 @@ app.get("/api/minecraft/:username", async function (req, res) {
     }
 });
 
-app.listen(3000, "0.0.0.0", function () {
-    console.log("BradensSkinProxy running on port 3000");
+app.listen(config.proxy.port, config.proxy.hostname, function () {
+    console.log("BradensSkinProxy running on " + config.proxy.hostname + ":" + config.proxy.port);
 });
