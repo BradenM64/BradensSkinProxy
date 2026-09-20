@@ -1,0 +1,14 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "cors": {
+    "enabled": true,
+    "origin": "*"
+  },
+  "minecraft": {
+    "profileApi": "https://api.mojang.com/users/profiles/minecraft/",
+    "sessionApi": "https://sessionserver.mojang.com/session/minecraft/profile/"
+  }
+}

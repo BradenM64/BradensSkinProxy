@@ -1,0 +1,17 @@
+{
+  "name": "bradens-skin-proxy",
+  "version": "1.0.0",
+  "description": "API proxy for retrieving Minecraft player skin info.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
