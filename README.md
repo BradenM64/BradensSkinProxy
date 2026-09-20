@@ -37,3 +37,5 @@ Server settings are stored in:
 ```text
 config.json
 ```
+
+The config file contains the server settings, CORS settings, and Minecraft API endpoints used by the proxy.
