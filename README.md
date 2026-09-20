@@ -2,6 +2,8 @@
 
 Node.js API proxy for retrieving Minecraft player skin info.
 
+Built for use with [BradensHeadGenerator](https://github.com/BradenM64/BradensHeadGenerator).
+
 By default, the server runs on:
 
 ```text
